@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Raleway', sans-serif;
+        }
+        body{
+          
+        }
+
+        iframe{
+            /* overflow:auto; */
+            height: 500px;
+            width: auto;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: 900px;
+        }
+        .card{
+            text-align: center;
+            padding: 20px;
+        }
+        p{
+            margin-top:30px;
+        }
+        .about{
+          display: flex;
+          flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .btn{
+          background: black;
+          color: white;
+          border-radius: 5px;
+          border: none;
+          padding: 10px;
+          margin: 15px;
+        }
+        .btn:hover{
+          cursor: pointer;
+          transform: scale(1.2);
+        }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+    </style>
+</head>
+<header>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav">
+  <a href="#home" class="active">Feyisayo Adediwura</a>
+  <div id="myLinks">
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</header>
+<body>
+    <section class="about" id='about'>
+      <h1 style="margin: 100px; font-size: 80px">About Me</h1>
+      <div class='' style='width:60%; margin-bottom: 200px;'>
+          <p>I am a front end web developer with a strong instinct for design and aesthetics. I am 
+              quite proficient with the main client-side technologies: <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong>, and 
+              also  the use of front end frameworks like <strong>React</strong>; enabling me to efficiently develop responsive desktop and mobile 
+              web pages. I have also learnt how to incorporate the 
+              use of <strong>APIs</strong> and servers such as <strong>SQL</strong> and <strong>MongoDB</strong> to ensure data persistence across projects,
+              with the aid of the <strong>Node Js</strong> environment and <strong>Express</strong> framework. I am also quite comfortable with
+              employing various data structures and algorithms to optimize space and runtime efficiency</p>
+      </div>
+      
+
+    </section>
+    <h1 style="margin: 100px; font-size: 80px; text-align: center; margin-top:0px;">Gallery</h1>
+    <section class='container' id='gallery'>
+            
+            <div class='card'>
+                <iframe src="https://fishjawzrex.github.io/storePage/" frameborder="0"></iframe>
+                <p>Interactive Store Page</p>
+                <a href="https://fishjawzrex.github.io/storePage/" target="_blank"><button class="btn">Visit Page</button></a>
+            </div>
+            
+
+            <div class='card'>
+                    <iframe src="https://fishjawzrex.github.io/magazinePage/" frameborder="0"></iframe>
+                    <p>Magazine Landing Page</p>
+                    <a href="https://fishjawzrex.github.io/magazinePage/" target="_blank"><button class="btn">Visit Page</button></a>
+
+            </div>
+
+            <div class='card'>
+                    <iframe src="https://fishjawzrex.github.io/ISS-Tracker-App/" frameborder="0"></iframe>
+                    <p>International Space Station Tracker</p>
+                    <a href="https://fishjawzrex.github.io/ISS-Tracker-App/" target="_blank"><button class="btn">Visit Page</button></a>
+
+            </div>
+            <div class='card'>
+                <iframe src="https://fishjawzrex.github.io/protoPortfolio/" frameborder="0"></iframe>
+                <p>Sample Portfolio</p>
+                <a href="https://fishjawzrex.github.io/protoPortfolio/" target="_blank"><button class="btn">Visit Page</button></a>
+
+            </div>
+
+
+            <div class='card'>
+                    <iframe src="https://fishjawzrex.github.io/fashion-web-app/" frameborder="0"></iframe>
+                    <p>Fashion Web Page</p>
+                    <a href="https://fishjawzrex.github.io/fashion-web-app/" target="_blank"><button class="btn">Visit Page</button></a>
+
+            </div>
+    </section>
+    
+    
+    
+    
+</body>
+<footer>
+    <!-- <article style="margin-bottom: 0px;">
+        <div>
+          
+            email
+            phone
+            linkedIn
+            github
+          
+        </div>
+    </article>
+        -->
+  
+      
+      <div style="width: 100%; height: 50px; background: black; position: relative; margin-bottom: 0px;" >
+
+      </div>
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    </script>
+</footer>
+</html>
